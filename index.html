@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - youtube.com/codingnepal -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Animated Login Form | CodingNepal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="center">
+      <h1>Login</h1>
+      <form method="post">
+        <div class="txt_field">
+          <input type="text" required>
+          <span></span>
+          <label>UserId</label>
+        </div>
+        <div class="txt_field">
+          <input type="password" required>
+          <span></span>
+          <label>Password</label>
+        </div>
+        <div class="txt_field1 dropdown">
+          <button onclick="myFunction()" class="btn btn-secondary dropdown-toggle dropbtn" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" required>
+            Who You Are
+          </button>
+          <div id="myDropdown" class="dropdown-menu dropdown-content" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item selected-option" href="Manufacturer.html">Manufacturer</a>
+            <a class="dropdown-item selected-option" href="Supplier.html">Supplier</a>
+            <a class="dropdown-item selected-option" href="Retailer.html">Retailer</a>
+            <a class="dropdown-item selected-option" href="Customer.html">Customer</a>
+
+          </div>
+          <span></span>
+          <label></label>
+        </div>
+        
+        <div class="pass">Forgot Password?</div>
+        <input type="submit" value="Login">
+        <div class="signup_link">
+          Not a member? <a href="#">Signup</a>
+        </div>
+      </form>
+    </div>
+    <script src="myscripts.js"></script>
+  </body>
+</html>

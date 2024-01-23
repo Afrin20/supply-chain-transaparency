@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="signup.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="signup-box">
+        <h1>Sign Up</h1>
+
+        <form action="index.html" method="post" onsubmit="return validateForm()">
+            <label for="fname">First Name</label>
+            <input id="fname" name="fname" class="form-control" type="text" placeholder="Enter First Name" />
+
+            <label for="lname">Last Name</label>
+            <input id="lname" name="lname" class="form-control" type="text" placeholder="Enter Last Name" />
+
+            <label for="email">Email</label>
+            <input id="email" name="email" class="form-control" type="email" placeholder="Enter Your Email" />
+
+            <label for="whoYouAre">Who You Are</label>
+            <input id="whoYouAre" name="whoYouAre" class="form-control" type="text" placeholder="Enter Who You Are" />
+
+            <label for="password">Password</label>
+            <input id="password" name="password" class="form-control" type="password" placeholder="Enter Password" />
+
+            <label for="cpassword">Confirm Password</label>
+            <input id="cpassword" name="cpassword" class="form-control" type="password" placeholder="Confirm Password" />
+
+            <input style="width: 320px; height: 35px; margin-top: 20px; border: none; background-color: #49c1a2; color: white; font-size: 18px;" class="form-control submit" type="submit" value="Submit" />
+        </form>
+        
+        <p>
+            By clicking the Sign Up button, you agree to our <br />
+            <a href="#">Terms and Condition</a> and <a href="#">Policy Privacy</a>
+        </p>
+    </div>
+    <p class="para-2">
+        Already have an account? <a href="index.html">Login here</a>
+    </p>
+
+</body>
+
+</html>
